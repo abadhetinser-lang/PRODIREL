@@ -242,3 +242,55 @@ body{
 .whatsapp:hover{
     transform:scale(1.1);
 }
+.footer{
+    background:#2b2d42;
+    color:#edf2f4;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.footer h2{
+    margin-bottom:20px;
+    letter-spacing:1px;
+}
+
+/* ICONOS */
+.iconos-contacto{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-bottom:30px;
+}
+
+.iconos-contacto a{
+    color:#edf2f4;
+    font-size:22px;
+    width:45px;
+    height:45px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    background:rgba(255,255,255,0.08);
+    transition:0.3s;
+}
+
+.iconos-contacto a:hover{
+    background:#ef233c;
+    transform:translateY(-5px);
+}
+
+/* MAPA */
+.mapa{
+    max-width:900px;
+    margin:0 auto 30px;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* COPY */
+.copy{
+    font-size:14px;
+    opacity:0.7;
+}
